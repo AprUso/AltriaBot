@@ -18,8 +18,6 @@ nonebot.init()
 app = nonebot.get_asgi()
 
 driver = nonebot.get_driver()
-
-driver = nonebot.get_driver()
 driver.register_adapter(ONEBOT_V11Adapter)
 
 # Please DO NOT modify this file unless you know what you are doing!
